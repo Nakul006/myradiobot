@@ -24,7 +24,7 @@ from pyrogram import Client, filters
 
 
 
-HOME_TEXT = "<b>Helo, [{}](tg://user?id={})\n\nIam MusicPlayer 2.0 which plays music in Channels and Groups 24*7\n\nI can even Stream Youtube Live in Your Voicechat\n\nHit /help to know more aboutme 😌\n\nMade with ❤ by @Elonmusk_010.</b>"
+HOME_TEXT = "<b>Helo, [{}](tg://user?id={})\n\nIam MusicPlayer 2.0 which plays music in Channels and Groups 24*7\n\nI can even Stream Youtube Live in Your Voicechat\n\nHit /help to know more aboutme 😌\n\nMade with ❤ by @Pablo_NK.</b>"
 HELP = """
 
 <b>Add the bot and User account in your Group with admin rights.
@@ -66,11 +66,11 @@ You can also use /dplay <song name> to play a song from Deezer.</b>
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton('Channel ⚡', url='https://t.me/searchit00'),
-        InlineKeyboardButton('Movie Group 💬', url='https://t.me/searchit_group'),
+        InlineKeyboardButton('Channel ⚡', url='https://t.me/CinematoosNew'),
+        InlineKeyboardButton('Movie Group 💬', url='https://t.me/CM_Chats'),
     ],
     [
-        InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/Elonmusk_010'),
+        InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/Pablo_NK'),
         InlineKeyboardButton('🤖 Source', url='https://github.com/AUTOBOTS00/MusicPlayer'),
     ],
     [
